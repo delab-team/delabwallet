@@ -363,4 +363,14 @@ article{
     }
 }
 
-
+@media screen and (min-width: 1712px) {
+    .screens-img{
+        width: 515.85px;
+        height: 452px;
+        margin-top: -40px;
+        margin-right: 120px;
+    }
+    article{
+        margin-top: 150px;
+    }
+}
