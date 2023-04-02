@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeWallet - an open sourse-wallet for TON blockchain</title>
+    <link rel="icon" type="image/jpg" href="/assets/img/fav.jpeg" />
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="" class="logo-link">
+                <img class="logo-img" src="assets/img/Logo.svg" alt="">
+            </a>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-link">
+                <a href="">Privacy</a>
+            </li>
+            <li class="nav-link">
+                <a href="">Product</a>
+            </li>
+            <li class="nav-link">
+                <a href="">Developers</a>
+            </li>
+            <li class="nav-link">
+                <a href="">Community</a>
+            </li>
+        </ul>
+        <div class="more-mobile-nav">
+            <span class="mobile-nav"></span>
+        </div>
+        <ul class="nav-button-list">
+            <li class="nav-button">
+                <a href="" class="nav-button-link">Download</a>
+            </li>
+        </ul>
+        <div class="wrapper-mobile-nav">
+            <div class="container">
+                <div class="more-mobile-nav-close">
+                    <span class="mobile-nav-close"></span>
+                </div>
+                <ul class="list-navigation">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="screens">
+            <img src="assets/img/Screen.png" alt="" class="screens-img">
+        </div>
+            <div>
+                <h2 class="title-first">A DeWallet <strong style=" background-image: linear-gradient(90deg, #4F80FF, #00B2FF);
+                    -webkit-background-clip: text; -webkit-text-fill-color: transparent;">TON</strong> in your Browser</h2>
+            <div>
+                <h2 class="title-second">DeWallet is an extension for accessing TON enabled <br> decentralized applications, or "dApps" in your browser!</h2>
+            </div>
+            <ul class="buttons">
+                <li class="button-title">
+                    <a href="" class="download-button">
+                        <img src="assets/img/chrome.png" alt="" class="chrome">
+                        Chrome extension
+                    </a>
+                </li>
+                <li class="others">
+                    <a href="" class="others-button">Other platforms
+                        <img src="assets/img/arrow.svg" alt="" class="arrow">
+                    </a>
+                </li>
+            </ul>    
+        </div>
+    </article> 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const mobileNavigation = document.querySelector('.wrapper-mobile-nav')
+    document.querySelector('.more-mobile-nav').addEventListener('click', (e) => {
+        mobileNavigation.classList.toggle('show-mobile-nav')
+    })
+    document.querySelector('.more-mobile-nav-close').addEventListener('click', (e) => {
+        mobileNavigation.classList.toggle('show-mobile-nav')
+    })
+    })
+    </script>
+</body>
+</html>
