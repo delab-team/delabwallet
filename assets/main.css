@@ -313,6 +313,12 @@ article{
     .more-mobile-nav{
         display: flex;
     }
+    .button-title{
+        margin-left: 10px;
+    }
+    .others{
+        margin-left: 30px;
+    }
 }
 
 
