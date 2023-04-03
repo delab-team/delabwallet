@@ -451,30 +451,9 @@ article {
         margin-top: 150px;
     }
 
-    .nav-list li {
-        font-size: 24px;
-    }
 
     .logo-img {
         height: 60px;
-    }
-
-    .nav-button {
-        background-color: #fff;
-        height: 60px;
-        width: 180px;
-        border-radius: 10px;
-        transition: 1s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .nav-button-link {
-        color: black;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 24px;
     }
 
 }
